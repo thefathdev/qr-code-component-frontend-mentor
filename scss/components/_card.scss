@@ -1,0 +1,25 @@
+.card {
+  width: 320px;
+  height: 500px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  border-radius: $base-border-radius;
+
+  &-img {
+    max-width: 290px;
+    height: auto;
+    margin: $base-margin;
+    border-radius: $small-border-radius;
+  }
+
+  &-title {
+    text-align: center;
+    margin: $base-margin * 0.5 $base-margin * 2 $base-margin;
+  }
+
+  &-body {
+    text-align: center;
+    margin: 0 $base-margin * 2;
+  }
+}

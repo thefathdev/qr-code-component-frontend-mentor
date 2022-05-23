@@ -1,0 +1,10 @@
+// background and text colors
+@each $key, $value in $colors {
+  .bg-#{$key} {
+    background-color: $value;
+  }
+
+  .text-#{$key} {
+    color: $value;
+  }
+}
